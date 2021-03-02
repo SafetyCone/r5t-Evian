@@ -1,4 +1,4 @@
-import { ElementSelectorAs, HtmlElementHelper, QuerySelectorHelper, ValidationResult } from "r5t-Avignon/Index";
+import { ElementSelectorAs, HtmlElementHelper, ValidationResult } from "r5t-Avignon/Index";
 import { ValidatedTextInputWithOutput } from "r5t-Chantilly/Index";
 
 import { ElementShowHideStyler } from "../Stylers/ElementShowHideStyler";

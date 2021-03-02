@@ -5,7 +5,7 @@ export class ElementShowHideStyler implements IElementShowHideStyler
 {
     ShowElement(element: HTMLElement): void
     {
-        TailwindUtilities.Show(element);
+        TailwindUtilities.ShowRemoveHidden(element);
     }
 
     HideElement(element: HTMLElement): void
