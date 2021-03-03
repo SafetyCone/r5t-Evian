@@ -1,4 +1,5 @@
-import { StatusDisplayV01 } from "r5t-Chantilly/Index";
+import { StatusDisplayV01 } from "r5t-Chantilly";
+
 import { ElementShowHideStylerV01 } from "../Stylers/ElementShowHideStylerV01";
 
 export class StatusDisplay extends StatusDisplayV01

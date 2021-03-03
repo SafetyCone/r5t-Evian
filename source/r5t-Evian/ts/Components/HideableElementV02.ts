@@ -1,4 +1,5 @@
-import { HideableElementV02 as HideableElementV02Base } from "r5t-Chantilly/Index";
+import { HideableElementV02 as HideableElementV02Base } from "r5t-Chantilly";
+
 import { ElementShowHideStylerV02 } from "../Stylers/ElementShowHideStylerV02";
 
 export class HideableElementV02 extends HideableElementV02Base

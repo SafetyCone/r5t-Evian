@@ -1,5 +1,5 @@
-import { ObservableValue } from "r5t-Arbois/Index";
-import { HideableElementOneWayBindingV02 as HideableElementBindingV02Base } from "r5t-Chantilly/Index";
+import { ObservableValue } from "r5t-Arbois";
+import { HideableElementOneWayBindingV02 as HideableElementBindingV02Base } from "r5t-Chantilly";
 
 import { ElementShowHideStylerV02 } from "../Stylers/ElementShowHideStylerV02";
 

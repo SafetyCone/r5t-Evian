@@ -1,5 +1,5 @@
-import { ElementSelectorAs, HtmlElementHelper, ValidationResult } from "r5t-Avignon/Index";
-import { ValidatedTextInputWithOutput } from "r5t-Chantilly/Index";
+import { ElementSelectorAs, HtmlElementHelper, ValidationResult } from "r5t-Avignon";
+import { ValidatedTextInputWithOutput } from "r5t-Chantilly";
 
 import { ElementShowHideStylerV01 } from "../Stylers/ElementShowHideStylerV01";
 import { ValidatedTextInputStyler } from "../Stylers/ValidatedTextInputStyler";

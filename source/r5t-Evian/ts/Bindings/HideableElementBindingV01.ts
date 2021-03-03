@@ -1,5 +1,5 @@
-import { ValueChangedNotifier } from "r5t-Arbois/Index";
-import { HideableElementBindingV01 as HideableElementBindingV01Base } from "r5t-Chantilly/Index";
+import { ValueChangedNotifier } from "r5t-Arbois";
+import { HideableElementBindingV01 as HideableElementBindingV01Base } from "r5t-Chantilly";
 
 import { ElementShowHideStylerV01 } from "../Stylers/ElementShowHideStylerV01";
 

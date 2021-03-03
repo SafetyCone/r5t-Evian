@@ -1,5 +1,6 @@
-import { HtmlListItemList } from "r5t-Arbois/Index";
-import { ListDisplayV01 as ListDisplayV01Base } from "r5t-Chantilly/Index";
+import { HtmlListItemList } from "r5t-Arbois";
+import { ListDisplayV01 as ListDisplayV01Base } from "r5t-Chantilly";
+
 import { ElementShowHideStylerV01 } from "../Stylers/ElementShowHideStylerV01";
 
 export class ListDisplayV01<TListElement extends HtmlListItemList, TValue>

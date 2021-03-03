@@ -1,5 +1,5 @@
-import { HtmlElementHelper } from "r5t-Avignon/Index";
-import { IValidatedTextInputStyler } from "r5t-Chantilly/Index";
+import { HtmlElementHelper } from "r5t-Avignon";
+import { IValidatedTextInputStyler } from "r5t-Chantilly";
 
 export class ValidatedTextInputStyler implements IValidatedTextInputStyler
 {

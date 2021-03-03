@@ -1,6 +1,6 @@
-import { PromiseHelper } from "r5t-Avignon/Index";
-import { IElementShowHideStylerV02 } from "r5t-Chantilly/Index";
-import { Utilities as TailwindUtilities } from "r5t-Tropez/Index";
+import { PromiseHelper } from "r5t-Avignon";
+import { IElementShowHideStylerV02 } from "r5t-Chantilly";
+import { Utilities as TailwindUtilities } from "r5t-Tropez";
 
 export class ElementShowHideStylerV02 implements IElementShowHideStylerV02
 {
