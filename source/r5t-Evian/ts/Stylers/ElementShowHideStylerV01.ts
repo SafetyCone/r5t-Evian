@@ -1,7 +1,7 @@
-import { IElementShowHideStyler } from "r5t-Chantilly/Index";
+import { IElementShowHideStylerV01 } from "r5t-Chantilly/Index";
 import { Utilities as TailwindUtilities } from "r5t-Tropez/Index";
 
-export class ElementShowHideStyler implements IElementShowHideStyler
+export class ElementShowHideStylerV01 implements IElementShowHideStylerV01
 {
     ShowElement(element: HTMLElement): void
     {

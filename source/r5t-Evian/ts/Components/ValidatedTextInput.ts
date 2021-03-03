@@ -1,9 +1,12 @@
 import { ElementSelectorAs, HtmlElementHelper, ValidationResult } from "r5t-Avignon/Index";
 import { ValidatedTextInputWithOutput } from "r5t-Chantilly/Index";
 
-import { ElementShowHideStyler } from "../Stylers/ElementShowHideStyler";
+import { ElementShowHideStylerV01 } from "../Stylers/ElementShowHideStylerV01";
 import { ValidatedTextInputStyler } from "../Stylers/ValidatedTextInputStyler";
 
+/**
+ * Matches with the InputV01 C# partial.
+ */
 export class ValidatedTextInput extends ValidatedTextInputWithOutput
 {
     constructor(
@@ -13,7 +16,7 @@ export class ValidatedTextInput extends ValidatedTextInputWithOutput
         wrapperSelector: ElementSelectorAs<HTMLDivElement> = HtmlElementHelper.SelectParentOfParentAs)
         {
             let textInputStyler = new ValidatedTextInputStyler();
-            let elementShowHideStyler = new ElementShowHideStyler();
+            let elementShowHideStyler = new ElementShowHideStylerV01();
 
             super(textInput, validator, textInputStyler, elementShowHideStyler, event, wrapperSelector);
         }
