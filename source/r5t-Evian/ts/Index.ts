@@ -5,5 +5,6 @@ export * from "./Components/ListDisplayV01";
 export * from "./Components/StatusDisplay";
 export * from "./Components/ValidatedTextInput";
 export * from "./Stylers/ElementShowHideStylerV01";
+export * from "./Stylers/ElementShowHideStylerV02";
 export * from "./Stylers/Styler";
 export * from "./Stylers/ValidatedTextInputStyler";
