@@ -7,13 +7,15 @@ export class ElementShowHideStylerV02 implements IElementShowHideStylerV02
     Show(element: HTMLElement): Promise<void>
     {
         TailwindUtilities.ShowRemoveHidden(element);
+        TailwindUtilities.RemoveHiddenAttribute(element);
 
         return PromiseHelper.Empty;
     }
 
     Hide(element: HTMLElement): Promise<void>
     {
-        TailwindUtilities.Hide(element);
+        TailwindUtilities.HideAddHidden(element);
+        TailwindUtilities.AddHiddenAttribute(element);
 
         return PromiseHelper.Empty;
     }
